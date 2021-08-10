@@ -1,4 +1,8 @@
 
+/* ⚠️ os códigos no console são somente para alterar as cores das fontes,
+   para saber mais acese: https://qastack.com.br/programming/9781218/how-to-change-node-jss-console-font-color
+*/
+
 const it = (description, cb) => {
   console.log("\x1b[37m", "----", description);
   cb();
